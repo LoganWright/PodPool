@@ -5,7 +5,7 @@ Pod::Spec.new do |spec|
   spec.homepage     = 'https://github.com/LoganWright/PodPool'
   spec.authors      = { 'Logan Wright' => 'logan.william.wright@gmail.com' }
   spec.summary      = 'ARC and GCD Compatible Reachability Class for iOS and OS X.'
-  spec.source       = { :git => 'https://github.com/LoganWright/PodPool.git', :tag => 'MarginLabel-1.0' }
+  spec.source       = { :git => 'https://github.com/LoganWright/PodPool.git', :tag => '1.0' }
   spec.source_files = 'MarginLabel/MarginLabel/LGMarginLabel.{h,m}'
   spec.platform     = :ios
 end
