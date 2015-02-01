@@ -8,8 +8,6 @@
 
 #import "GHIssueLabel.h"
 
-@import UIKit;
-
 @implementation GHIssueLabel
 - (NSMutableDictionary *)mapping {
     NSMutableDictionary *mapping = [super mapping];
