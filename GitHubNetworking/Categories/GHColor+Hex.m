@@ -11,7 +11,7 @@
 @implementation GHColor (Hex)
 - (NSString *)gh_hexRepresentation {
     
-    float rf, gf, bf, af;
+    CGFloat rf, gf, bf, af;
     [self getRed:&rf green:&gf blue:&bf alpha:&af];
     
     int r,g,b,a;

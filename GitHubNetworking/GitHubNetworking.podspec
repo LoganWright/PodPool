@@ -9,4 +9,5 @@ Pod::Spec.new do |spec|
   spec.source_files = 'GitHubNetworking/**/*.{h,m}'
   spec.platform     = :ios, '8.0', :osx, '10.8'
   spec.dependency 'AFNetworking', '2.5.0'
+  spec.dependency 'JSONMapping', '1.0'
 end
