@@ -7,6 +7,6 @@ Pod::Spec.new do |spec|
   spec.summary      = 'ARC and GCD Compatible Reachability Class for iOS and OS X.'
   spec.source       = { :git => 'https://github.com/LoganWright/PodPool.git', :tag => 'GitHubNetworking-1.0' }
   spec.source_files = 'GitHubNetworking/**/*.{h,m}'
-  spec.platform     = :ios
+  spec.platform     = :ios, '8.0', :osx, '10.8'
   spec.dependency 'AFNetworking', '2.5.0'
 end
