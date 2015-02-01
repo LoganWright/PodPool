@@ -11,7 +11,7 @@
 #if TARGET_OS_IPHONE
 @class UIColor;
 #define GHColor UIColor
-#elif
+#else
 @class NSColor;
 #define GHColor NSColor
 #endif
