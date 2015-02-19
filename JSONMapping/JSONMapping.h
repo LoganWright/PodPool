@@ -1,27 +1,16 @@
 //
-//  JSONObject.h
-//  GitIssues-iOS
+//  JSONMapping.h
 //
-//  Created by Logan Wright on 1/24/15.
+//  Created by Logan Wright on 2/18/15.
 //  Copyright (c) 2015 LowriDevs. All rights reserved.
 //
 
-#import "NSCodable.h"
+#ifndef GitHubNetworking_JSONMapping_h
+#define GitHubNetworking_JSONMapping_h
 
-#pragma mark - Object
+#import "JSONMappableObject.h"
+#import "JSONMappableTransformer.h"
+#import "NSArray+JSONMapping.h"
+#import "NSObject+JSONMapping.h"
 
-@interface JSONMappableObject : NSCodable
-- (NSMutableDictionary *)mapping;
-- (instancetype)initWithJSONRepresentation:(NSDictionary *)jsonRepresentation;
-@end
-
-@interface JSONMappableObject (Parameters)
-- (NSMutableDictionary *)parameterMapping;
-- (NSDictionary *)jsonRepresentation;
-@end
-
-#pragma mark - Transformer
-
-@interface JSONMappableTransformer : NSObject
-+ (id)transform:(id)fromVal;
-@end
+#endif
